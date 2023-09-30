@@ -10,7 +10,7 @@ parameters:
   type: "string"
 - id: "location"
   name: "Location"
-  required: true
+  default: "canadacentral"
   type: "string"
 - id: "os_type"
   name: "Operating System"
