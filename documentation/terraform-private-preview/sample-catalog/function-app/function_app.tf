@@ -25,8 +25,9 @@ variable "resource_group_name" {}
 
 variable "resource_name" {}
 
-variable "location" {}
-
+variable "location" {
+  default = "canadacentral"
+}
 variable "os_type" {
   default = "linux"
 }
